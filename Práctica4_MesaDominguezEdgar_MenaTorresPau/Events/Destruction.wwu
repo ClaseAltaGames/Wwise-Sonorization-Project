@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="General" ID="{7040EAB6-6055-4D83-907B-86C639D84AD6}" ShortID="267499909">
+					<ChildrenList>
+						<Event Name="Destruction_Container" ID="{87A18D94-C6EF-440E-A4AC-930260E67688}">
+							<ChildrenList>
+								<Action Name="" ID="{39EA9B5C-D778-4548-B7AF-A4638A53977E}" ShortID="265491479">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Container" ID="{7ADCAFC8-290B-4E8A-913B-23C872FF5346}" WorkUnitID="{61AC77FE-5434-4D92-8A28-280401A23F40}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RegionSpecific" ID="{540B9415-C35E-4180-B310-13408F652DB6}" ShortID="858126016">
+					<ChildrenList>
+						<Event Name="Destruction_Crystal_Destroy" ID="{BBF6A2BC-05A0-4FD9-91CC-E85C815F34B0}">
+							<ChildrenList>
+								<Action Name="" ID="{80B92F88-E94B-462B-8997-5E256DA331A2}" ShortID="429466241">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Crystals" ID="{F84EF36E-536E-43F3-9E50-3C96C4BCB19C}" WorkUnitID="{61AC77FE-5434-4D92-8A28-280401A23F40}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Rock_Destroy" ID="{28E2573F-5842-4542-B93B-04B4329217AF}">
+							<ChildrenList>
+								<Action Name="" ID="{FA5B1DD5-40F1-4380-B482-C802609C4D2A}" ShortID="956174851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Rock" ID="{DCCEE1FC-59CA-4BC3-9908-4125819101AD}" WorkUnitID="{61AC77FE-5434-4D92-8A28-280401A23F40}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{B9B0EDF5-4CF5-4FEF-8048-B620EF17097C}">
+							<ChildrenList>
+								<Action Name="" ID="{7F552C28-E59A-47B1-9944-4C12928C0302}" ShortID="787091168">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_VolcanicBoulder" ID="{51DD1E68-B5A1-4C6C-96DE-AF3F6A6B77C3}" WorkUnitID="{61AC77FE-5434-4D92-8A28-280401A23F40}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3EBB6194-72D4-4954-81B5-2582E03612CF}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="General" ID="{3EBB6194-72D4-4954-81B5-2582E03612CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{4A66EF7A-A1AF-4829-9F7C-104D204477B4}">
+					<ChildrenList>
+						<Switch Name="Wood" ID="{8A3F2C9D-A572-4B3D-B662-BBCEC9B3259E}"/>
+						<Switch Name="Agent" ID="{11503877-6E41-458A-968B-36A214A4F282}"/>
+						<Switch Name="Barrel" ID="{1244157C-F252-4FA0-87E9-EDEA15DA63B6}"/>
+						<Switch Name="Crate" ID="{5E741C59-FDE3-4B33-9BF3-BBC5CF1CDD2F}"/>
+						<Switch Name="Crystal" ID="{94C1BF9C-3236-44D0-B28F-FB811120F537}"/>
+						<Switch Name="Dirt" ID="{29064097-09BE-41D6-B6F3-10BF5577E327}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{A57F0B57-1E7C-4D78-8C54-648F882A8643}"/>
+						<Switch Name="Enemy_EvilHead" ID="{EF020134-9B2B-442E-95C1-82A49D9CA9C2}"/>
+						<Switch Name="Enemy_EvilSpilPlant" ID="{6CBF41CD-0257-4113-BF97-C7396A03B972}"/>
+						<Switch Name="Grass" ID="{AA732663-C944-4D78-982E-06C825345115}"/>
+						<Switch Name="Leaves" ID="{0FE555D4-D64D-4976-8609-74CA46D19252}"/>
+						<Switch Name="Metal" ID="{4E0BF0E6-D10A-4C5F-8AC2-228E5CB79393}"/>
+						<Switch Name="Rubble" ID="{E0EF46C4-3EAA-4036-BF96-10E3A494901B}"/>
+						<Switch Name="Sand" ID="{AD3CC7A6-9288-4EFD-ADF1-B65B3A2308E7}"/>
+						<Switch Name="Stone" ID="{3FD24BC0-DD69-4663-AD16-A521F0DA9525}"/>
+						<Switch Name="Water" ID="{C0AAB0F0-EBD8-4A15-9586-A84A56E67E51}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<WorkUnit Name="Player" ID="{9523CCD2-A88C-4A90-9B93-913CF99C029B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

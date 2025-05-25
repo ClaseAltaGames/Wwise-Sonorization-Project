@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9523CCD2-A88C-4A90-9B93-913CF99C029B}" SchemaVersion="119" RootDocumentID="{3EBB6194-72D4-4954-81B5-2582E03612CF}" ParentDocumentID="{3EBB6194-72D4-4954-81B5-2582E03612CF}">
+	<Switches>
+		<WorkUnit Name="Player" ID="{9523CCD2-A88C-4A90-9B93-913CF99C029B}" OwnerID="{3EBB6194-72D4-4954-81B5-2582E03612CF}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{25551CCC-B096-4287-8A33-961B480E42DF}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{6C5269AF-3217-4366-84B9-A8D01356AD86}"/>
+						<Switch Name="Walk" ID="{6C27D19D-B7F2-45D0-8B20-C9ACBEA4034E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

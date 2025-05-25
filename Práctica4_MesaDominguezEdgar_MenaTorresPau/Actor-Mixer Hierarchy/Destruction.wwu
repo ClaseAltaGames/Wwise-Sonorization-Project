@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61AC77FE-5434-4D92-8A28-280401A23F40}" SchemaVersion="119" RootDocumentID="{6B225F17-FC93-44E2-B2E6-07F1143EFD35}" ParentDocumentID="{6B225F17-FC93-44E2-B2E6-07F1143EFD35}">
+	<AudioObjects>
+		<WorkUnit Name="Destruction" ID="{61AC77FE-5434-4D92-8A28-280401A23F40}" OwnerID="{6B225F17-FC93-44E2-B2E6-07F1143EFD35}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Destruction" ID="{BE9D6100-5219-4BBB-894E-17C67CD00156}" ShortID="508405958">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Destruction_Rock" ID="{DCCEE1FC-59CA-4BC3-9908-4125819101AD}" ShortID="1039240237">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Destroy_Rock_02" ID="{EFB3ADF1-1785-4BD3-9C88-31163623D13E}" ShortID="173263445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_02" ID="{D21BD2FC-E0A9-4CEC-AC7D-89D10271A4D9}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Destroy_Rock_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="863465288"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_02" ID="{D21BD2FC-E0A9-4CEC-AC7D-89D10271A4D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroy_Rock_03" ID="{F5E5485B-3D1F-41E0-96C1-0D1E1FC009CD}" ShortID="298562229">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_03" ID="{7A83E060-58CE-492F-8214-556066AADF5F}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Destroy_Rock_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268120717"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_03" ID="{7A83E060-58CE-492F-8214-556066AADF5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Destroy_Rock_01" ID="{DA014699-7BAD-4897-9E05-FD7C9F411005}" ShortID="358884327">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_01" ID="{DCFDA6B5-F5DE-4B1A-A0D3-F290DB573715}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Destroy_Rock_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="938775763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_01" ID="{DCFDA6B5-F5DE-4B1A-A0D3-F290DB573715}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Destruction_Container" ID="{7ADCAFC8-290B-4E8A-913B-23C872FF5346}" ShortID="162924726">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Wood" ID="{8A3F2C9D-A572-4B3D-B662-BBCEC9B3259E}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface_Type" ID="{4A66EF7A-A1AF-4829-9F7C-104D204477B4}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Destroy_Barrel" ID="{360805A5-9338-4BE6-8D0C-A03E243814CE}" ShortID="186874502">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Destroy_Wood_01" ID="{E8E6B1EA-0FE5-41BC-945A-8242E81B7F62}" ShortID="584138065">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Wood_01" ID="{D6B6EE85-FAB5-4943-AA2E-789C1FB59AFB}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Wood_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954637137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Wood_01" ID="{D6B6EE85-FAB5-4943-AA2E-789C1FB59AFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Destroy_Wood_03" ID="{57300EB1-D7DD-4D73-8FA7-FB3E7D0AE794}" ShortID="523988461">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Wood_03" ID="{86EF7AE9-3D0E-4B26-B75E-6D5FCC84AF64}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Wood_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="662886163"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Wood_03" ID="{86EF7AE9-3D0E-4B26-B75E-6D5FCC84AF64}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Destroy_Wood_02" ID="{18A67B7C-C630-44D9-A008-0F847795337F}" ShortID="840113323">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Destroy_Wood_02" ID="{6BAFAA90-F313-4110-A89C-7E077ED8E025}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Destroy_Wood_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="223804452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Destroy_Wood_02" ID="{6BAFAA90-F313-4110-A89C-7E077ED8E025}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Destroy_Crate" ID="{90CB27BF-AC46-4F96-9400-F0F8C5700AEF}" ShortID="446877839">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crate_Destroy_06" ID="{9A649155-D27B-4211-9F14-57AE62DC6C76}" ShortID="304280234">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{C11F814C-DDE4-46F3-8A0E-D32FDB48ADD0}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827547528"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_06" ID="{C11F814C-DDE4-46F3-8A0E-D32FDB48ADD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crate_Destroy_04" ID="{FB0B0F90-8A59-428C-B3F8-CF549DF677A0}" ShortID="31744184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{74F4027C-F127-4528-9A1B-459BBA878A8F}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="441701259"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_04" ID="{74F4027C-F127-4528-9A1B-459BBA878A8F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crate_Destroy_01" ID="{CB7132E6-73FB-470D-AD94-19E10BFCE5BB}" ShortID="459650296">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{D0D13F5F-3864-41EB-853D-E7ADB61E42AD}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="435889081"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_01" ID="{D0D13F5F-3864-41EB-853D-E7ADB61E42AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crate_Destroy_02" ID="{E0C86F4D-890D-4614-8E1B-AE8EC4935DB6}" ShortID="459825020">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{0BEA55AD-9004-493D-AFF5-DE16EC2A0135}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="551761439"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_02" ID="{0BEA55AD-9004-493D-AFF5-DE16EC2A0135}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crate_Destroy_05" ID="{8D8A236D-0F94-4BE9-BFCD-C1DF183C5CD1}" ShortID="323077317">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{59B4203F-18E7-4BE1-8DF6-ED3060954E36}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383718966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_05" ID="{59B4203F-18E7-4BE1-8DF6-ED3060954E36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crate_Destroy_03" ID="{42DEE0BC-06A5-44FC-9C35-26D97A2F44A2}" ShortID="230135618">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{95319DD2-7348-48BB-A0D1-3852B739B0D8}">
+													<Language>SFX</Language>
+													<AudioFile>BAS_Crate_Destroy_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828628201"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Crate_Destroy_03" ID="{95319DD2-7348-48BB-A0D1-3852B739B0D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Destroy_Wood" ID="{1CA09981-208B-4B77-8EE4-A7DB0E45D3B8}" ShortID="795287407">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Wood_01" ID="{2BBD4ACA-59F6-4911-A193-F7BB7CB7E25E}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_Destroy_Wood_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954637137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Wood_01" ID="{2BBD4ACA-59F6-4911-A193-F7BB7CB7E25E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Destroy_Wood" ID="{1CA09981-208B-4B77-8EE4-A7DB0E45D3B8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Destroy_Barrel" ID="{360805A5-9338-4BE6-8D0C-A03E243814CE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Destroy_Crate" ID="{90CB27BF-AC46-4F96-9400-F0F8C5700AEF}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Destruction_VolcanicBoulder" ID="{51DD1E68-B5A1-4C6C-96DE-AF3F6A6B77C3}" ShortID="791082974">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Destruction_Crystals" ID="{F84EF36E-536E-43F3-9E50-3C96C4BCB19C}" ShortID="438904569">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crystals_Destroy" ID="{3494205B-0EF3-46FA-BB3C-399E7122F86C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.966449382716049"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.966449382716049"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BAS_Crystals_Destroy.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="459435177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crystals_Destroy" ID="{3494205B-0EF3-46FA-BB3C-399E7122F86C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Boulder_Near" ID="{7E95769A-359F-4F6A-80E7-813A871CE0A5}" ShortID="153047214">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Boulder_Debris" ID="{37B6A636-EC15-4799-A13E-2AF6FED48B46}" ShortID="614255439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DebrisDirt" ID="{45D66BDE-E41C-4E36-83A7-367C5BE60A17}">
+													<Language>SFX</Language>
+													<AudioFile>Volcanic Boulder\DebrisDirt.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="445590094"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DebrisDirt" ID="{45D66BDE-E41C-4E36-83A7-367C5BE60A17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Boulder_Explosion" ID="{8ABC865D-992B-4130-B2FD-291ACA99E1CC}" ShortID="342426085">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Explosion" ID="{6FDB3CA8-1F5B-4926-AF5C-0706C9BB8F25}">
+													<Language>SFX</Language>
+													<AudioFile>Volcanic Boulder\Explosion.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="782650113"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Explosion" ID="{6FDB3CA8-1F5B-4926-AF5C-0706C9BB8F25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<RandomSequenceContainer Name="Boulder_Far" ID="{D5E8A92C-7ACB-417A-989E-0B8B77C6F197}" ShortID="673211457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Boulder_Far" ID="{4FB7A7F0-59AE-4E45-A27A-1093A4D32A7F}" ShortID="618858573">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Explosion" ID="{DFCE4778-7F6F-4772-AFF7-36D2F0C214A0}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="6"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.45432098765432"/>
+														<Property Name="FadeOutShape" Type="int16" Value="6"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.306172839506172"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.76049382716049"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Volcanic Boulder\Explosion.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="381852216"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Explosion" ID="{DFCE4778-7F6F-4772-AFF7-36D2F0C214A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Boulder_Far" ID="{D5E8A92C-7ACB-417A-989E-0B8B77C6F197}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Destruction_Crystals" ID="{F84EF36E-536E-43F3-9E50-3C96C4BCB19C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Boulder_Near" ID="{7E95769A-359F-4F6A-80E7-813A871CE0A5}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

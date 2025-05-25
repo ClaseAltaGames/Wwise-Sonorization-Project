@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BDF10C3-BBDC-4406-8A84-E382E65764D9}" SchemaVersion="119" RootDocumentID="{DB8E6689-6218-4C5E-B2D8-C868E8E10DF9}" ParentDocumentID="{DB8E6689-6218-4C5E-B2D8-C868E8E10DF9}">
+	<SoundBanks>
+		<WorkUnit Name="Region" ID="{1BDF10C3-BBDC-4406-8A84-E382E65764D9}" OwnerID="{DB8E6689-6218-4C5E-B2D8-C868E8E10DF9}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Cave" ID="{E0F0F619-531C-4014-921D-70633ACF0266}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{25B9918C-7FAB-4CE1-9FE4-85A8AA7A3F69}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{6B9A3CD1-C8CF-4E41-99D8-275B8896CD57}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{BBF6A2BC-05A0-4FD9-91CC-E85C815F34B0}" WorkUnitID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Desert" ID="{C30B5E3B-61B8-4E39-9726-6A6145D6370A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{643A3121-88C4-40DE-8965-D9C3C7B4EFBD}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{B9B0EDF5-4CF5-4FEF-8048-B620EF17097C}" WorkUnitID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dungeon" ID="{533B0A8D-A0F0-42AC-A409-9D56828A27ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Dungeon" ID="{15F91B8E-250C-444E-ADCE-23CC48B96E52}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Destruction_Rock_Destroy" ID="{28E2573F-5842-4542-B93B-04B4329217AF}" WorkUnitID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{157D6EA2-F4CE-499A-8AAF-EEC3DD6407F5}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{5A34C255-BD0A-4CB5-8BF1-4D519B63A2A2}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PineForest" ID="{487C3FA9-7E7D-40B9-B01D-9A93DAB39A02}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_PineForest" ID="{FF77C3ED-9482-4313-ACB6-4D7824FA2B03}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Village" ID="{AF044C29-81D8-445A-B51E-110690263F21}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_River" ID="{24A6E33F-5DED-416D-9D28-6227B6599E36}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Ambient_Region_Village" ID="{E3587C8C-D74D-4BA9-8B90-8E4D2B441CF3}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{4A6F5C4B-AED9-4C40-B017-F42EEE7EC702}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{5A34C255-BD0A-4CB5-8BF1-4D519B63A2A2}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Woodlands" ID="{C9520615-CC42-41DC-A9C6-F4B95E92C85B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="4"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{7FF92581-79E6-48A0-9911-49D4A1F1F7FE}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{5A34C255-BD0A-4CB5-8BF1-4D519B63A2A2}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{25B9918C-7FAB-4CE1-9FE4-85A8AA7A3F69}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

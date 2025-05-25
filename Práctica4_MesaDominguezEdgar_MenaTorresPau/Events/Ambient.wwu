@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="General" ID="{326AB639-4B11-4B16-AA38-14FB2BDE5097}" ShortID="888761276">
+					<ChildrenList>
+						<Event Name="Ambient_Campfire_Play" ID="{73A7767C-CA46-48E3-AC79-587E98FEADB8}">
+							<ChildrenList>
+								<Action Name="" ID="{8276B599-1177-4AC7-A293-10AEA5B061DC}" ShortID="59815000">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Campfire" ID="{5585F738-8845-4EA6-B0A0-9461672677EF}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Campfire_Stop" ID="{024F03BF-D5AB-437C-9F4E-1AED77FA6578}">
+							<ChildrenList>
+								<Action Name="" ID="{FFE314E1-DD29-4685-ACC1-522695707043}" ShortID="137284872">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Campfire" ID="{5585F738-8845-4EA6-B0A0-9461672677EF}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Crystal_Hum" ID="{C9E4098E-D49B-4B2D-805A-2E78E19333AC}">
+							<ChildrenList>
+								<Action Name="" ID="{97A25117-E693-4E48-99B1-AFE06765A101}" ShortID="404678723">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Crystal_Ringing" ID="{C1CD5F3E-C5D7-487D-B811-63F83A9EDCC7}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SoundBankSpecific" ID="{CE35D43E-129F-4B32-A2C9-BF6AD31D7DE2}" ShortID="236536411">
+					<ChildrenList>
+						<Event Name="Ambient_Region_Cave" ID="{6B9A3CD1-C8CF-4E41-99D8-275B8896CD57}">
+							<ChildrenList>
+								<Action Name="" ID="{7D074F44-21BF-44C4-BA15-26A78A290E0B}" ShortID="479666435">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Cave" ID="{235829EF-99D8-4FBF-8970-15AEFF485964}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Desert" ID="{643A3121-88C4-40DE-8965-D9C3C7B4EFBD}">
+							<ChildrenList>
+								<Action Name="" ID="{7DA330EC-F5F2-44AE-8E0B-C887D8FD7223}" ShortID="631647284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Desert" ID="{DD4B8FDC-1875-4441-93BE-C63EBFCFBEED}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Dungeon" ID="{157D6EA2-F4CE-499A-8AAF-EEC3DD6407F5}">
+							<ChildrenList>
+								<Action Name="" ID="{C18964D6-0B00-48E2-9C0B-DF8A661036E9}" ShortID="103817013">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Dungeon" ID="{9BE00FB5-BCAD-4E9A-9EE3-7702A5921AC3}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_PineForest" ID="{FF77C3ED-9482-4313-ACB6-4D7824FA2B03}">
+							<ChildrenList>
+								<Action Name="" ID="{C66B392F-4453-4CA7-BCD3-93BB28681C15}" ShortID="265359199">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_PineForest" ID="{A98680CD-3E94-4481-899B-B2D1D4ACDE0A}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Village" ID="{E3587C8C-D74D-4BA9-8B90-8E4D2B441CF3}">
+							<ChildrenList>
+								<Action Name="" ID="{E61489B9-88FB-435A-A6DD-0A64FE26FC15}" ShortID="391344745">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Village" ID="{C2E488A2-8E79-4EF6-B490-38F8EC18360F}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Woodlands" ID="{7FF92581-79E6-48A0-9911-49D4A1F1F7FE}">
+							<ChildrenList>
+								<Action Name="" ID="{AEEF889E-816B-4319-8AFF-862F4D36817B}" ShortID="738977280">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Woodlands" ID="{232DE429-4A28-457E-BF5F-94B20800A5EE}" WorkUnitID="{E5DDF1C5-7B62-45CD-BF23-AE8BC00F55EC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_River" ID="{24A6E33F-5DED-416D-9D28-6227B6599E36}">
+							<ChildrenList>
+								<Action Name="" ID="{86931CE8-2264-4726-8A76-6682747A8EA8}" ShortID="843370783">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_River" ID="{0FF09283-E1DB-4E36-94C2-507BD6F61520}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Torch" ID="{5A34C255-BD0A-4CB5-8BF1-4D519B63A2A2}">
+							<ChildrenList>
+								<Action Name="" ID="{170C9ADF-64F3-416F-8B5D-4ED7E730A30E}" ShortID="374064490">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Torch" ID="{7F23EA4A-286B-44CA-8345-56ABC4915AC5}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_WaterDrop" ID="{BC7D15E3-64C3-463C-95DD-EB0A630EFDED}">
+							<ChildrenList>
+								<Action Name="" ID="{968676B1-9659-429E-8115-812AC77F78DB}" ShortID="700817975">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_Waterdrops" ID="{0045D54E-117E-4354-ABFB-139106C1C512}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Waterfall" ID="{25B9918C-7FAB-4CE1-9FE4-85A8AA7A3F69}">
+							<ChildrenList>
+								<Action Name="" ID="{FCF972DF-FB05-42E0-8A6A-5E5D5C82A90B}" ShortID="783969024">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_Waterfall" ID="{59E36740-D299-4059-B6B8-9BA262A77C6A}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Windmill" ID="{4A6F5C4B-AED9-4C40-B017-F42EEE7EC702}">
+							<ChildrenList>
+								<Action Name="" ID="{F13BB30C-6F2A-432B-8805-DF8A76692990}" ShortID="608328367">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Windmill" ID="{F70339B0-29E7-473E-9454-A27A09AAACF5}" WorkUnitID="{3415D70A-D6FE-4DA4-A851-EFAF40DE4E8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Dungeon" ID="{15F91B8E-250C-444E-ADCE-23CC48B96E52}" ShortID="801702175">
+							<ChildrenList>
+								<Event Name="Ambient_Lava" ID="{BA5B6292-302C-4233-AB2B-EE2E04BE8293}"/>
+								<Folder Name="Core" ID="{5F1DC791-E444-4674-AB4F-A36A31E0E4E1}" ShortID="284870339"/>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

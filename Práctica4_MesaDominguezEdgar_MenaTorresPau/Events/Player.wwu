@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Player" ID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="SoundBankSpecific" ID="{0B14BBF9-5469-4A20-887C-0F92B2CDA6E1}" ShortID="281467950">
+					<ChildrenList>
+						<Event Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}">
+							<ChildrenList>
+								<Action Name="" ID="{F961AEBE-8412-43B3-9A26-293ADC84FB7F}" ShortID="372914985">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep_Surface" ID="{D6BFE04B-811A-44C3-BD1F-25BDEB55C0DE}" WorkUnitID="{085FF0BE-5F0C-4DB9-90DC-AA726BEEA4A4}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
