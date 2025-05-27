@@ -14,8 +14,13 @@
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Cave" ID="{74873F82-81D5-4CBD-97DC-08C79513138A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Agent" ID="{11503877-6E41-458A-968B-36A214A4F282}"/>
+						<CurrentSwitchRef Name="Close" ID="{122B6142-2E43-4644-A324-5DB6F2AC67F0}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

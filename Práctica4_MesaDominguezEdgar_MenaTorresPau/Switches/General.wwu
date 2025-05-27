@@ -69,6 +69,12 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}">
+					<ChildrenList>
+						<Switch Name="Day" ID="{5BC3174D-11EE-4105-982B-ED68CF53895D}"/>
+						<Switch Name="Night" ID="{73AF20C3-D54E-4EC3-A4E6-4D8C64548696}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

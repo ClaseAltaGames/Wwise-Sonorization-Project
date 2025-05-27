@@ -111,7 +111,6 @@
 						</Bus>
 						<Bus Name="World" ID="{E62A5BA6-40D1-4900-AC23-D5EFC8A864BE}">
 							<ChildrenList>
-								<Bus Name="Ambient" ID="{9B1CDD64-3286-4676-8F87-48FE10FD07CB}"/>
 								<Bus Name="AUX" ID="{764F0C9E-4338-4873-9B6E-A15E4DB529ED}">
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
@@ -181,28 +180,80 @@
 																	</EffectSlot>
 																</Local>
 															</Reference>
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{5A4E05BC-6CF2-42D1-8F7D-D0E9BD22E3A3}" ShortID="127209979">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+																					<Effect Name="Room_Large (Custom)" ID="{242C0303-410E-472A-BA20-E839BEC1EF5A}" ShortID="339325941" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="3.2"/>
+																							<Property Name="Density" Type="Real32" Value="41"/>
+																							<Property Name="Diffusion" Type="Real32" Value="0"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-30"/>
+																							<Property Name="ERPattern" Type="int32" Value="9"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-3.5"/>
+																							<Property Name="HFDamping" Type="Real32" Value="4.15"/>
+																							<Property Name="PreDelay" Type="Real32" Value="56"/>
+																							<Property Name="Quality" Type="int32" Value="12"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																							<Property Name="RoomShape" Type="Real32" Value="51"/>
+																							<Property Name="RoomSize" Type="Real32" Value="49"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
 														</ObjectList>
 													</ObjectLists>
 												</AuxBus>
 											</ChildrenList>
 										</Bus>
-										<Bus Name="Region_Desert" ID="{A43E9CC0-2194-4028-9D1A-CB0592814321}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-15</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ChildrenList>
-												<AuxBus Name="Desert" ID="{070EB026-F8FE-48BD-9B6D-84A771674687}"/>
-												<AuxBus Name="RoadToDesert" ID="{96E2BAA9-A6DE-4D0D-8498-CE7F186C6238}"/>
-											</ChildrenList>
-										</Bus>
 										<Bus Name="Region_Dungeon" ID="{57679D81-12F3-48AE-9D3F-3958236AF8EE}">
 											<ChildrenList>
-												<AuxBus Name="Dungeon_Core" ID="{E369A380-3752-434A-A447-7AE6F329A2A7}"/>
-												<AuxBus Name="Dungeon_Entrance" ID="{EF1AB4C3-1521-4172-ABCA-9E3CE64AABC5}"/>
+												<AuxBus Name="Dungeon_Core" ID="{E369A380-3752-434A-A447-7AE6F329A2A7}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{FFB736D9-7871-4827-992E-E8ADFA5A4708}" ShortID="370925062">
+																		<ReferenceList>
+																			<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																				<ObjectRef Name="WAG_Dungeon_Core" ID="{36D96A39-242E-4869-BDCA-2846C7E285FD}" WorkUnitID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}"/>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Entrance" ID="{EF1AB4C3-1521-4172-ABCA-9E3CE64AABC5}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{6D692F0B-2E7A-4D54-919F-DAF5D2395789}" ShortID="897856522">
+																		<ReferenceList>
+																			<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																				<ObjectRef Name="WAG_Dungeon_Entrance" ID="{E307B0A6-D17A-4E4E-A216-C5BED27BB13C}" WorkUnitID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}"/>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
 												<AuxBus Name="Dungeon_Forge" ID="{DD2D2463-91E6-41F6-ABFB-48762D4D4BA0}">
 													<PropertyList>
 														<Property Name="BusVolume" Type="Real64">
@@ -211,54 +262,278 @@
 															</ValueList>
 														</Property>
 													</PropertyList>
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{969D1D23-6148-4D9D-B4B4-8903732BD7FB}" ShortID="24543521">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{36D96A39-242E-4869-BDCA-2846C7E285FD}">
+																					<Effect Name="WAG_Dungeon_Core (Custom)" ID="{987A2819-80AD-4AA1-953B-5EF912770B1B}" ShortID="637162735" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="5.4"/>
+																							<Property Name="Density" Type="Real32" Value="70"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="61"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																							<Property Name="ERPattern" Type="int32" Value="9"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2Freq" Type="Real32" Value="3080"/>
+																							<Property Name="Filter2Gain" Type="Real32" Value="-11"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="7530"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+																							<Property Name="HFDamping" Type="Real32" Value="4.8"/>
+																							<Property Name="PreDelay" Type="Real32" Value="88"/>
+																							<Property Name="Quality" Type="int32" Value="14"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																							<Property Name="RoomSize" Type="Real32" Value="100"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="172"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
 												</AuxBus>
-												<AuxBus Name="Dungeon_Library" ID="{9AEEE7F1-E5DC-4301-BF0A-6CE9AA34FB16}"/>
-												<AuxBus Name="Dungeon_Library_Statue" ID="{DBB3A570-F213-440E-B439-162E0CDC7C69}"/>
-												<AuxBus Name="Dungeon_MezzanineRoom" ID="{D544ADA4-517B-4E2A-948C-3B9B4FA6CFB7}"/>
-												<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{74D0D4CF-A462-43B5-B80A-457E57862542}"/>
-												<AuxBus Name="Dungeon_PathToForge" ID="{96EA41CE-6540-469B-889E-21745E87E68B}"/>
-												<AuxBus Name="Dungeon_RoadToCore" ID="{BDCCAB87-4D05-45AD-BCE6-CA94A949D626}"/>
-											</ChildrenList>
-										</Bus>
-										<Bus Name="Region_Pineforest" ID="{CCD68DB0-942C-449E-858D-B697D8A5C33F}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-15</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ChildrenList>
-												<AuxBus Name="PineForest" ID="{6B99778A-5115-4836-9AAD-CBB3DAE83E6B}"/>
-												<AuxBus Name="PineForest_Hut" ID="{E3CC5800-8C92-49CB-B27C-D7AFE38E3AF7}"/>
-												<AuxBus Name="RoadToPineForest" ID="{5D9D06DB-45BA-4EDD-869E-C4F2AAF2F800}"/>
-											</ChildrenList>
-										</Bus>
-										<Bus Name="Region_Village" ID="{2374C268-4966-49C5-BB80-AE3E99D513EB}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-15</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ChildrenList>
-												<AuxBus Name="Training" ID="{5C30A804-41E0-4E82-8F53-4AA01C272B73}"/>
-												<AuxBus Name="Village" ID="{C132CA3E-E2BC-43EE-9808-DAFE7F84E0F6}"/>
-												<AuxBus Name="WwizardHouse" ID="{3CAA3F8A-B626-479E-B76F-EA9D5614891B}"/>
-											</ChildrenList>
-										</Bus>
-										<Bus Name="Region_Woodlands" ID="{9334B42D-3B9C-4E80-8A6D-482E887FBCBF}">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-15</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ChildrenList>
-												<AuxBus Name="RoadToWoodlands" ID="{983AAFB3-A5C5-4451-951D-F0AA09C2B8FE}"/>
-												<AuxBus Name="Woodlands" ID="{3AD28FA4-9DE4-4A63-9CA1-ECA58F1376D9}"/>
+												<AuxBus Name="Dungeon_Library" ID="{9AEEE7F1-E5DC-4301-BF0A-6CE9AA34FB16}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{7B1D4F1F-FF36-42B2-8F91-1FAB4B74C7DC}" ShortID="925634712">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+																					<Effect Name="Room_Large (Custom)" ID="{22903A35-FE80-4072-9619-A2A80B81CF97}" ShortID="791004397" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="4"/>
+																							<Property Name="Density" Type="Real32" Value="64"/>
+																							<Property Name="Diffusion" Type="Real32" Value="40"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="51"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																							<Property Name="ERPattern" Type="int32" Value="11"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="5090"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+																							<Property Name="HFDamping" Type="Real32" Value="7"/>
+																							<Property Name="PreDelay" Type="Real32" Value="49"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-18"/>
+																							<Property Name="RoomShape" Type="Real32" Value="42"/>
+																							<Property Name="RoomSize" Type="Real32" Value="66"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="112"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Library_Statue" ID="{DBB3A570-F213-440E-B439-162E0CDC7C69}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{3B60BB7F-C53B-4A60-A1D1-5C196A6EBE1F}" ShortID="87288056">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom>
+																					<Effect Name="RoomVerb (Custom)" ID="{86156A57-54A4-423F-B22B-0466AC6A9923}" ShortID="360165857" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-2.5"/>
+																							<Property Name="HFDamping" Type="Real32" Value="2"/>
+																							<Property Name="PreDelay" Type="Real32" Value="21"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																							<Property Name="RoomSize" Type="Real32" Value="53"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="69"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_MezzanineRoom" ID="{D544ADA4-517B-4E2A-948C-3B9B4FA6CFB7}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{51C3E238-288B-4815-9632-3FF65F4A9FA9}" ShortID="203460006">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom>
+																					<Effect Name="RoomVerb (Custom)" ID="{2399BD6C-C885-461E-B994-8DC73A160DB8}" ShortID="539333504" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="3"/>
+																							<Property Name="Density" Type="Real32" Value="44"/>
+																							<Property Name="Diffusion" Type="Real32" Value="53"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="59"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-15"/>
+																							<Property Name="ERPattern" Type="int32" Value="11"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="5810"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-11"/>
+																							<Property Name="HFDamping" Type="Real32" Value="3"/>
+																							<Property Name="PreDelay" Type="Real32" Value="84"/>
+																							<Property Name="Quality" Type="int32" Value="16"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-27"/>
+																							<Property Name="RoomSize" Type="Real32" Value="63"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{74D0D4CF-A462-43B5-B80A-457E57862542}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{D6659950-9D9F-489F-AC99-B5B7980CA6D5}" ShortID="557125309">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom>
+																					<Effect Name="RoomVerb (Custom)" ID="{4AAB95F7-B54C-4218-B511-8F181BC2851C}" ShortID="657836140" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="1"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="2.5"/>
+																							<Property Name="HFDamping" Type="Real32" Value="2"/>
+																							<Property Name="PreDelay" Type="Real32" Value="21"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																							<Property Name="RoomSize" Type="Real32" Value="53"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="69"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_PathToForge" ID="{96EA41CE-6540-469B-889E-21745E87E68B}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{C3F88FEB-ECE7-4FE6-861C-277FF08043C7}" ShortID="1009181964">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{50286348-176A-4235-9E4C-CA5F73D87818}">
+																					<Effect Name="Hall_Medium (Custom)" ID="{E6D14DFF-8302-429B-91B8-D73919B8F2CE}" ShortID="436333428" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="3"/>
+																							<Property Name="Density" Type="Real32" Value="58"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="43"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																							<Property Name="ERPattern" Type="int32" Value="15"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																							<Property Name="Filter1Gain" Type="Real32" Value="2"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2Freq" Type="Real32" Value="3370"/>
+																							<Property Name="Filter2Gain" Type="Real32" Value="-4.5"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="7100"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-8.5"/>
+																							<Property Name="HFDamping" Type="Real32" Value="3"/>
+																							<Property Name="PreDelay" Type="Real32" Value="50"/>
+																							<Property Name="Quality" Type="int32" Value="14"/>
+																							<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+																							<Property Name="RoomShape" Type="Real32" Value="55"/>
+																							<Property Name="RoomSize" Type="Real32" Value="38"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="Dungeon_RoadToCore" ID="{BDCCAB87-4D05-45AD-BCE6-CA94A949D626}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{1ACD873C-EDD7-4E1A-B3F7-B1220D0ED9E8}" ShortID="124801158">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}">
+																					<Effect Name="Phone_Booth (Custom)" ID="{44502259-FBCD-462D-9A29-29DD48976E06}" ShortID="340357143" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DecayTime" Type="Real32" Value="3"/>
+																							<Property Name="Density" Type="Real32" Value="32"/>
+																							<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																							<Property Name="ERFrontBackDelay" Type="Real32" Value="46"/>
+																							<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																							<Property Name="ERPattern" Type="int32" Value="30"/>
+																							<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																							<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																							<Property Name="Filter1Gain" Type="Real32" Value="-5"/>
+																							<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																							<Property Name="Filter2Freq" Type="Real32" Value="4520"/>
+																							<Property Name="Filter2Gain" Type="Real32" Value="-4.5"/>
+																							<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																							<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																							<Property Name="Filter3Gain" Type="Real32" Value="-8.5"/>
+																							<Property Name="HFDamping" Type="Real32" Value="3.4"/>
+																							<Property Name="PreDelay" Type="Real32" Value="34"/>
+																							<Property Name="Quality" Type="int32" Value="10"/>
+																							<Property Name="RoomShape" Type="Real32" Value="36"/>
+																							<Property Name="RoomSize" Type="Real32" Value="48"/>
+																							<Property Name="StereoWidth" Type="Real32" Value="0"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
 											</ChildrenList>
 										</Bus>
 									</ChildrenList>

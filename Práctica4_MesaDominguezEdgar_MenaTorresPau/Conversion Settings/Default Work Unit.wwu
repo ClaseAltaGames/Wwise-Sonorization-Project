@@ -37,6 +37,7 @@
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
+				<WorkUnit Name="Music" ID="{DB131BA4-44BD-4D8D-BF62-5C2878EC4DE9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Conversions>
