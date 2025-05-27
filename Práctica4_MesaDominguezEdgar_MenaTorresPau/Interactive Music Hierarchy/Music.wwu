@@ -11,13 +11,14 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="21"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Music_Detailed" ID="{0833BDBB-B50B-4D8B-BA1A-42E91B1B85A4}" WorkUnitID="{DB131BA4-44BD-4D8D-BF62-5C2878EC4DE9}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+							<ObjectRef Name="Music" ID="{FD5E1815-AA1E-4D56-B502-ABCA7A34B580}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
 						</Reference>
 						<Reference Name="TransitionRoot">
 							<Custom>
@@ -415,6 +416,9 @@
 							</ChildrenList>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{5A743343-9EE4-41A7-A790-CA9B24B7B2E8}"/>
+					</PositioningInfo>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
 							<Reference>
@@ -424,8 +428,388 @@
 								<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
 							</Reference>
 						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{8C58AF8E-53F7-4F46-A340-8B20D661E04E}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Cave" ID="{74873F82-81D5-4CBD-97DC-08C79513138A}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{7838BC9E-FC02-4709-81DB-82D8BA95E1C1}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Desert" ID="{61BAA945-9A20-4826-B7AA-B2BA89D504B7}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{0E0554A7-0E95-470C-AA10-3BD7F576CDB1}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Dungeon" ID="{063208A7-4DD3-4DC1-B1C6-943F9105D423}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{945EC506-8B79-4EDD-8399-AF182AE82687}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="None" ID="{8DBD335A-DC3E-4EEE-B2E3-E3175C08953F}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{0D1F6E37-7EE7-459C-AB7C-743361B8DB9F}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Nowhere" ID="{75071EB7-769C-48DC-9A6F-6D74D1C16025}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{A71E9E02-A9B2-4FB5-8D28-A6F5771AAA6B}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Village" ID="{DCE676A2-0FB6-406D-91B1-A6B35F155171}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{006F22F6-AF68-4598-B11F-5D161CDB2068}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Silent" ID="{D92044C2-6E69-4E31-A213-F636E09414A5}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{DFF126FB-4979-4755-BF8F-3395DB10EA33}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Woodlands" ID="{840D73DA-0FC4-48F9-8A0C-B9AFE061D7FA}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{AA935EAE-B7E8-44CF-BBCC-75922E8433FB}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ambient" ID="{889E588E-CA25-4047-B96D-8646BA49E141}" WorkUnitID="{9FD408C8-F4C4-46FB-8602-30585F4ABD74}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="WwizzardHouse" ID="{6BF6AAE1-5DB5-42D1-B962-3444804A79F5}" WorkUnitID="{6CC68AB9-5015-434F-8816-B73F47A105A7}"/>
+												</Reference>
+												<Reference>
+													<ObjectRef Name="DayOrNight" ID="{FEB53997-B5CC-4D76-97BA-55332F0CD4F7}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
 					</ObjectLists>
 				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="Music_TitleScreen" ID="{3C86C0EE-2108-45D5-BA3F-B90CD829A76B}" ShortID="21200905">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{FD5E1815-AA1E-4D56-B502-ABCA7A34B580}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{82C67D50-88C2-40A6-B549-89C3F990E4EF}" ShortID="810963569"/>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{1A61C8EC-6322-4D21-8FC5-99B645CCBCD3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1B82D0E3-EB62-4EC4-924F-089F4FED8354}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="WAG_TitleScreen" ID="{DBACF23E-088D-466F-9A80-E086D8792512}" ShortID="488023850">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="424768.058888077"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="WAG_TitleScreen" ID="{D027B7ED-AABD-4577-B17C-8441CB924AFC}" ShortID="846292122">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B27DE9E4-2E0F-494E-8ECB-9EF536FF59FE}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1C282105-45DD-466F-BBA7-4ACA493A3939}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="02-The-Four-Horsemen" ID="{D544D915-9DF3-490F-B26E-D98844E79D3F}">
+											<Language>SFX</Language>
+											<AudioFile>02-The-Four-Horsemen.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784002847"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CD5166D3-4233-4DB1-8C87-014146B7AA4E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="02-The-Four-Horsemen" ID="{2A816BA8-BDA9-4905-B47A-0A4EAB1C6A9C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="424768.058888077"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="02-The-Four-Horsemen" ID="{D544D915-9DF3-490F-B26E-D98844E79D3F}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{8078A8AE-9C8C-4319-A584-A0FFD1A6993A}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>424.76806</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{1E67A11A-6B92-4530-B996-99B96A9CC5CC}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>424.76806</XPos>
+																								<YPos>-4.95528</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{00B24D08-F545-4923-814E-3A6AA9E181BD}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>424.76806</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{F3609CD2-0B56-423D-89F6-05D47946B1F8}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{04CA4F73-0817-43C6-A483-747DC1538E70}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

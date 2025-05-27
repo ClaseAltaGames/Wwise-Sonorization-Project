@@ -3,10 +3,10 @@
 	<Project Name="Práctica4_MesaDominguezEdgar_MenaTorresPau" GUID="{9EA465AE-97AB-4AE9-ABE8-4ACCA78AD113}" Generator="2023.1.4.8496"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Windows" GUID="{9CB4C381-784D-470C-A10C-821B0C816FBE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../../Audiokinetic/WwiseAdventureGame2023.1.4.286/WwiseAdventureGame/WwiseAdventureGame_Data/StreamingAssets/Audio/GeneratedSoundBanks/Windows"/>
+		<Platform Name="Windows" GUID="{9CB4C381-784D-470C-A10C-821B0C816FBE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../../../Audiokinetic/WwiseAdventureGame2023.1.4.286/WwiseAdventureGame/WwiseAdventureGame_Data/StreamingAssets/Audio/GeneratedSoundBanks/Windows"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{9C91C371-15FE-45A0-A02A-87BB64DD3AD4}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{0241EA65-A96C-B5D0-0593-FB820DA1C6FB}</FileHash>
+	<FileHash>{E9265D08-B698-53C6-3213-D47D65D761F5}</FileHash>
 </ProjectInfo>
