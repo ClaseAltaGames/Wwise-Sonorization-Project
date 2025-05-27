@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	1999886838	Destruction_Rock_Destroy			\Destruction\RegionSpecific\Destruction_Rock_Destroy	
+	4077685701	Ambient_Region_Dungeon			\Ambient\SoundBankSpecific\Ambient_Region_Dungeon	
+	4275106484	Ambient_Lava			\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	195480164	Ambient_Fire_Torch	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Fire_Torch		448524
+	268120717	Destroy_Rock_03	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\BAS_Destroy_Rock_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Destruction_Rock\Destroy_Rock_03		87136
+	285581013	amb_dungeon_day_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Dungeon\amb_dungeon_day_background_loop_01		24641632
+	863465288	Destroy_Rock_02	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\BAS_Destroy_Rock_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Destruction_Rock\Destroy_Rock_02		119904
+	938775763	Destroy_Rock_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\BAS_Destroy_Rock_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Destruction\Destruction_Rock\Destroy_Rock_01		105568
+

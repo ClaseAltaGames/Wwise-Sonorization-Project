@@ -9,6 +9,15 @@
 						<Switch Name="Walk" ID="{6C27D19D-B7F2-45D0-8B20-C9ACBEA4034E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{44357BA9-079A-48DA-A134-D112F4D13667}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{377BA0E2-DCB6-4D54-888E-7D35ABE807A4}"/>
+						<Switch Name="Dagger" ID="{948F43AF-EC19-4C0C-B021-7FEF1F715AEE}"/>
+						<Switch Name="Hammer" ID="{E5F7A7FE-ABC6-4B2C-BA33-427C9FAA2A3F}"/>
+						<Switch Name="Pickaxe" ID="{2CF6AF30-2483-4A9B-9318-D34C77E145A8}"/>
+						<Switch Name="Sword" ID="{8D718BF0-363F-46DF-BAC6-8EDE4B64FA20}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

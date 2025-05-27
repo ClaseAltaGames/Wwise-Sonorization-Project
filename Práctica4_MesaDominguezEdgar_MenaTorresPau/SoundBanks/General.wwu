@@ -8,6 +8,7 @@
 						<ObjectRef Name="UI" ID="{F35362B0-5EA4-406F-AC51-5153E581A5E1}" WorkUnitID="{F35362B0-5EA4-406F-AC51-5153E581A5E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{C6505DCB-875A-40D7-A8FB-21AF9103F510}" WorkUnitID="{C6505DCB-875A-40D7-A8FB-21AF9103F510}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{4FB32D02-413C-453C-874C-E0264B4344FC}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="3"/>
+						<ObjectRef Name="General" ID="{64AEF79E-09EF-4958-8F14-ABE38C5A4341}" WorkUnitID="{0D71F776-CF20-4FD5-9669-6C4055B51482}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{326AB639-4B11-4B16-AA38-14FB2BDE5097}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Torch" ID="{5A34C255-BD0A-4CB5-8BF1-4D519B63A2A2}" WorkUnitID="{7C358D6C-7F63-4AA5-BA7F-0796ACFA1AB4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{7040EAB6-6055-4D83-907B-86C639D84AD6}" WorkUnitID="{FF21D259-49F8-47B5-ADF5-B945FF80B334}" Origin="Manual" Filter="7"/>

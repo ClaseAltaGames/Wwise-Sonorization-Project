@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	100151336	Ambient_Campfire_Stop			\Ambient\General\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2355650095	Ambient_Crystal_Hum			\Ambient\General\Ambient_Crystal_Hum	
+	2453392179	Player_Footstep			\Player\SoundBankSpecific\Player_Footstep	
+	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
+	3664581270	Ambient_Campfire_Play			\Ambient\General\Ambient_Campfire_Play	
+	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\General\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	286660663	Rubble	Surface_Type			
+	389757836	Agent	Surface_Type			
+	442447909	Barrel	Surface_Type			
+	582824249	Leaves	Surface_Type			
+	803837735	Sand	Surface_Type			
+	1216965916	Stone	Surface_Type			
+	1543082801	Enemy_EvilSpilPlant	Surface_Type			
+	1647104456	Enemy_EvilCrawler	Surface_Type			
+	2058049674	Wood	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	2473969246	Metal	Surface_Type			
+	2654748154	Water	Surface_Type			
+	3065846598	Enemy_EvilHead	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	3444057113	Crystal	Surface_Type			
+	4248645337	Grass	Surface_Type			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	195480164	Ambient_Fire_Torch	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Fire_Torch		448524
+	445256644	Ambient_Crystal_Ringing	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_Crystal_Ringing_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Crystal_Ringing		2469760
+	472181959	QuestRoll_Close	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_AB6C202B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\QuestRoll_Close		41074
+	507018977	Inventory_Scroll	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_106B3066.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\Inventory_Scroll		53988
+	606802629	QuestRoll_Open	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\QuestRoll_Open		104510
+	813066758	Inventory_Open	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\UI\BAS_Inventory_Open_701A9FCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\Inventory_Open		37424
+	1014221130	Inventory_Close	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\UI\BAS_Inventory_Close_DFB05EA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\Inventory_Close		34360
+

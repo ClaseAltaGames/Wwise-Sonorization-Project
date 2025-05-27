@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	2208964750	Ambient_Windmill			\Ambient\SoundBankSpecific\Ambient_Windmill	
+	2258053876	Ambient_River			\Ambient\SoundBankSpecific\Ambient_River	
+	2752753183	Ambient_Region_Village			\Ambient\SoundBankSpecific\Ambient_Region_Village	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73235616	Ambient_Water_River	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Water_River		3072160
+	195480164	Ambient_Fire_Torch	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Fire_Torch		448524
+	378455609	BAS_amb_village_day_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Day\BAS_amb_village_day_background_loop_01		28801120
+	406890541	BAS_WindMillBlade_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\BAS_WindMillBlade_01		1622112
+	585905314	BAS_amb_village_night_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Night\BAS_amb_village_night_background_loop_01		23457888
+	637625392	BAS_WindMillBlade_03	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\BAS_WindMillBlade_03		352352
+	791846042	BAS_WindMillBlade_02	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambient_Emmiters\Ambient_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\BAS_WindMillBlade_02		1163360
+

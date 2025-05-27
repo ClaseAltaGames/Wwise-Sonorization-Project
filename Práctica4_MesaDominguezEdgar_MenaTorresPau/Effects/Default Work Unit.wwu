@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Reverbs" ID="{F263B71D-B35E-453A-8FE8-C37C0F498900}" ShortID="347497617">
+					<ChildrenList>
+						<Effect Name="WAG_Cave" ID="{052F0887-5232-4735-8D8D-A399295F693F}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<PropertyList>
+								<Property Name="DecayTime" Type="Real32" Value="3.9"/>
+								<Property Name="Density" Type="Real32" Value="41"/>
+								<Property Name="Diffusion" Type="Real32" Value="0"/>
+								<Property Name="ERLevel" Type="Real32" Value="-30"/>
+								<Property Name="ERPattern" Type="int32" Value="9"/>
+								<Property Name="EnableToneControls" Type="bool" Value="True"/>
+								<Property Name="Filter1Freq" Type="Real32" Value="260"/>
+								<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+								<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+								<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+								<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+								<Property Name="Filter3Gain" Type="Real32" Value="-10.5"/>
+								<Property Name="HFDamping" Type="Real32" Value="4.15"/>
+								<Property Name="PreDelay" Type="Real32" Value="83"/>
+								<Property Name="Quality" Type="int32" Value="12"/>
+								<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+								<Property Name="RoomShape" Type="Real32" Value="51"/>
+								<Property Name="RoomSize" Type="Real32" Value="84"/>
+								<Property Name="StereoWidth" Type="Real32" Value="160"/>
+							</PropertyList>
+						</Effect>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

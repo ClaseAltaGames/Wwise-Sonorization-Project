@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{872C808D-9D5A-4595-ACC5-E4EC76ECF4A5}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Generic" ID="{872C808D-9D5A-4595-ACC5-E4EC76ECF4A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance_to_Camera" ID="{44ACA539-208C-4808-BDF1-EBFC9DC39288}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

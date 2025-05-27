@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	808171864	Ambient_Region_PineForest			\Ambient\SoundBankSpecific\Ambient_Region_PineForest	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40894269	BAS_amb_forest_day_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Day\BAS_amb_forest_day_background_loop_01		27990112
+	686476472	BAS_amb_pineforest_night_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Night\BAS_amb_pineforest_night_background_loop_01		13829380
+

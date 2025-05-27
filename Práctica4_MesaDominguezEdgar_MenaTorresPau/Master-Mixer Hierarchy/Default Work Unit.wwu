@@ -9,6 +9,310 @@
 							<ObjectRef Name="System" ID="{E8307DCC-4F3D-44CB-B3B9-A26FF4629957}" WorkUnitID="{048CA3EB-ADAC-4809-8E35-82931CF8DDBB}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Non-World" ID="{DA1CCE63-F0E8-40CD-BD5A-5B27FEB687FA}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6304004</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Music" ID="{FD5E1815-AA1E-4D56-B502-ABCA7A34B580}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UsedForBackgroundMusic" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="EnemyTheme" ID="{E34C44E7-1054-441D-8FDC-03F55ED756F2}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>6304004</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5C749415-AFF9-418F-8322-8B446FEF51AA}" ShortID="1048983796">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MenuSlider_Music_Volume" ID="{E78F3027-72D4-43A8-9930-6669B1A02880}" WorkUnitID="{50851272-C916-47D3-A0EA-A884D64C97DD}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{60F76F7C-D9BA-4531-8246-9B01754991FB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="MusicStinger" ID="{5BE27556-E739-4CCD-AC42-9426FC1FA3AF}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{E7AC7E1A-D0A8-4238-B18C-486A2B352B15}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Music_Aux" ID="{3F130F70-FB1F-4F61-8537-E134438FE5B3}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="World" ID="{E62A5BA6-40D1-4900-AC23-D5EFC8A864BE}">
+							<ChildrenList>
+								<Bus Name="Ambient" ID="{9B1CDD64-3286-4676-8F87-48FE10FD07CB}"/>
+								<Bus Name="AUX" ID="{764F0C9E-4338-4873-9B6E-A15E4DB529ED}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Region_Cave" ID="{81188093-8F61-45B7-972A-624968C4B866}">
+											<ChildrenList>
+												<AuxBus Name="Cave" ID="{E9705D4F-1DF7-49C6-820E-224378B9D0F2}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{07A7E106-27F7-48A2-B668-21C84FCA386F}" ShortID="412824573">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom CreatedFrom="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}">
+																					<Effect Name="Echoes_Linear (Custom)" ID="{2CF0C5D7-DAF0-4DDE-8F6C-39905A33319E}" ShortID="678033766" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DelayTime" Type="Real32" Value="0.3"/>
+																							<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+																							<Property Name="WetDryMix" Type="Real32" Value="12"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{18E06B20-B763-4D97-BB0C-5908C08F78CE}" ShortID="505453022">
+																		<ReferenceList>
+																			<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																				<ObjectRef Name="WAG_Cave" ID="{052F0887-5232-4735-8D8D-A399295F693F}" WorkUnitID="{04F4B60C-E330-4BE8-A28F-2299A4A6321D}"/>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+												<AuxBus Name="CaveEntrance" ID="{B637CC54-3CDF-4878-885A-A4C37EB163D0}">
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{60991854-0F2C-4B86-BF43-B503662DF7FA}" ShortID="728301148">
+																		<ReferenceList>
+																			<Reference Name="Effect">
+																				<Custom>
+																					<Effect Name="Delay (Custom)" ID="{6F01B10C-6C81-4F5C-8C5F-5B8D595B387A}" ShortID="370448042" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+																						<PropertyList>
+																							<Property Name="DelayTime" Type="Real32" Value="0.31"/>
+																							<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+																							<Property Name="WetDryMix" Type="Real32" Value="12"/>
+																						</PropertyList>
+																					</Effect>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Desert" ID="{A43E9CC0-2194-4028-9D1A-CB0592814321}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="Desert" ID="{070EB026-F8FE-48BD-9B6D-84A771674687}"/>
+												<AuxBus Name="RoadToDesert" ID="{96E2BAA9-A6DE-4D0D-8498-CE7F186C6238}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Dungeon" ID="{57679D81-12F3-48AE-9D3F-3958236AF8EE}">
+											<ChildrenList>
+												<AuxBus Name="Dungeon_Core" ID="{E369A380-3752-434A-A447-7AE6F329A2A7}"/>
+												<AuxBus Name="Dungeon_Entrance" ID="{EF1AB4C3-1521-4172-ABCA-9E3CE64AABC5}"/>
+												<AuxBus Name="Dungeon_Forge" ID="{DD2D2463-91E6-41F6-ABFB-48762D4D4BA0}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Library" ID="{9AEEE7F1-E5DC-4301-BF0A-6CE9AA34FB16}"/>
+												<AuxBus Name="Dungeon_Library_Statue" ID="{DBB3A570-F213-440E-B439-162E0CDC7C69}"/>
+												<AuxBus Name="Dungeon_MezzanineRoom" ID="{D544ADA4-517B-4E2A-948C-3B9B4FA6CFB7}"/>
+												<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{74D0D4CF-A462-43B5-B80A-457E57862542}"/>
+												<AuxBus Name="Dungeon_PathToForge" ID="{96EA41CE-6540-469B-889E-21745E87E68B}"/>
+												<AuxBus Name="Dungeon_RoadToCore" ID="{BDCCAB87-4D05-45AD-BCE6-CA94A949D626}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Pineforest" ID="{CCD68DB0-942C-449E-858D-B697D8A5C33F}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="PineForest" ID="{6B99778A-5115-4836-9AAD-CBB3DAE83E6B}"/>
+												<AuxBus Name="PineForest_Hut" ID="{E3CC5800-8C92-49CB-B27C-D7AFE38E3AF7}"/>
+												<AuxBus Name="RoadToPineForest" ID="{5D9D06DB-45BA-4EDD-869E-C4F2AAF2F800}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Village" ID="{2374C268-4966-49C5-BB80-AE3E99D513EB}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="Training" ID="{5C30A804-41E0-4E82-8F53-4AA01C272B73}"/>
+												<AuxBus Name="Village" ID="{C132CA3E-E2BC-43EE-9808-DAFE7F84E0F6}"/>
+												<AuxBus Name="WwizardHouse" ID="{3CAA3F8A-B626-479E-B76F-EA9D5614891B}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Woodlands" ID="{9334B42D-3B9C-4E80-8A6D-482E887FBCBF}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="RoadToWoodlands" ID="{983AAFB3-A5C5-4451-951D-F0AA09C2B8FE}"/>
+												<AuxBus Name="Woodlands" ID="{3AD28FA4-9DE4-4A63-9CA1-ECA58F1376D9}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C60A6B38-6732-4716-A002-0C7F5E2B4D59}" ShortID="580057568"/>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7F601D76-1CC8-4602-880B-88425057210B}" ShortID="210487447">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Master_Volume" ID="{FA4E597D-62FB-45BB-B75F-6BCE874B1560}" WorkUnitID="{50851272-C916-47D3-A0EA-A884D64C97DD}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4026EDE0-F3B7-41E0-A35D-CBE2022F0F82}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>

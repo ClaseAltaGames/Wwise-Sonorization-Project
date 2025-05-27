@@ -312,7 +312,7 @@ IR Pre-delay: 8ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="477192351"/>
+										<MediaID ID="238341605"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -411,7 +411,7 @@ IR Pre-delay: 6ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 02.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="828807711"/>
+										<MediaID ID="830379118"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -782,7 +782,7 @@ IR Pre-delay: 7ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="304471121"/>
+										<MediaID ID="539027192"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1053,7 +1053,7 @@ IR Pre-delay: 8ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 02.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="830379118"/>
+										<MediaID ID="828807711"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1127,11 +1127,6 @@ IR Pre-delay: 8ms
 IR Pre-delay: 6ms </Comment>
 							<PropertyList>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="0.9055"/>
-								<Property Name="IRConvolutionThreshold" Type="Real32">
-									<ValueList>
-										<Value>-75</Value>
-									</ValueList>
-								</Property>
 								<Property Name="IRLRMix" Type="Real32">
 									<ValueList>
 										<Value>5</Value>
@@ -1147,7 +1142,7 @@ IR Pre-delay: 6ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Rooms\AK Blue Noise Room 01.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="238341605"/>
+										<MediaID ID="477192351"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1617,7 +1612,7 @@ IR Pre-delay: 7ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="539027192"/>
+										<MediaID ID="811934406"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1710,7 +1705,7 @@ IR Pre-delay: 7ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Stair Way Hall.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="811934406"/>
+										<MediaID ID="304471121"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1803,7 +1798,7 @@ IR Pre-delay: 0ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Fabrik SCOUT.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="765520478"/>
+										<MediaID ID="825862339"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -1993,7 +1988,7 @@ IR Pre-delay: 0ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Large Spaces\AK Hamburg Fabrik SCOUT.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="825862339"/>
+										<MediaID ID="765520478"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -2276,7 +2271,7 @@ IR Pre-delay: 20ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="99990636"/>
+										<MediaID ID="101091315"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -2368,7 +2363,7 @@ IR Pre-delay: 20ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="101091315"/>
+										<MediaID ID="535111107"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -2458,7 +2453,7 @@ IR Pre-delay: 20ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK St-Katharinen.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="535111107"/>
+										<MediaID ID="99990636"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -2644,7 +2639,7 @@ IR Pre-delay: 5ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK Medium Church.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="1035327887"/>
+										<MediaID ID="1010865615"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -2922,7 +2917,7 @@ IR Pre-delay: 5ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Churches\AK Medium Church.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="1010865615"/>
+										<MediaID ID="1035327887"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -3109,7 +3104,7 @@ IR Pre-delay: 6ms</Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="1045271282"/>
+										<MediaID ID="689379105"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -3202,7 +3197,7 @@ IR Pre-delay: 6ms</Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="689379105"/>
+										<MediaID ID="162018684"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -3305,7 +3300,7 @@ IR Pre-delay: 6ms</Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Halls\AK Berlin Teldex.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="162018684"/>
+										<MediaID ID="1045271282"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -3797,7 +3792,7 @@ IR Pre-delay: 2ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="930622549"/>
+										<MediaID ID="926581161"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -3891,7 +3886,7 @@ IR Pre-delay: 2ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="612082618"/>
+										<MediaID ID="930622549"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -4177,7 +4172,7 @@ IR Pre-delay: 8ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 01.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="152920738"/>
+										<MediaID ID="584321412"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -4465,7 +4460,7 @@ IR Pre-delay: 2ms </Comment>
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Harburger See.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="926581161"/>
+										<MediaID ID="612082618"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>
@@ -4555,7 +4550,7 @@ IR Pre-delay: 8ms
 										<Property Name="DataFileName" Type="string" Value="AK_Factory_IR\Exteriors\AK Hamburg Stadtpark 01.wav"/>
 									</PropertyList>
 									<MediaIDList>
-										<MediaID ID="584321412"/>
+										<MediaID ID="152920738"/>
 									</MediaIDList>
 								</PluginMediaSource>
 							</ChildrenList>

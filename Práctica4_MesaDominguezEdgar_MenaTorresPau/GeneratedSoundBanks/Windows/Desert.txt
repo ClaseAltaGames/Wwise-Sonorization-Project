@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact	
+	3408705206	Ambient_Region_Desert			\Ambient\SoundBankSpecific\Ambient_Region_Desert	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	79126958	BAS_amb_desert_day_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Desert\Ambient_Region_Desert_Day\BAS_amb_desert_day_background_loop_01		21299296
+	770023593	BAS_amb_desert_night_background_loop_01	C:\Users\paumt\Documents\GitHub\Wwise-Sonorization-Project\Práctica4_MesaDominguezEdgar_MenaTorresPau\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Desert\Ambient_Region_Desert_Night\BAS_amb_desert_night_background_loop_01		11931232
+

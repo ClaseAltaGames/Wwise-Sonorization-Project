@@ -24,6 +24,51 @@
 					</ChildrenList>
 				</SwitchGroup>
 				<WorkUnit Name="Player" ID="{9523CCD2-A88C-4A90-9B93-913CF99C029B}" PersistMode="Reference"/>
+				<SwitchGroup Name="Distance_to_Player" ID="{19374F1E-7A1D-4B2F-B3EE-8A153175E720}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Close" ID="{122B6142-2E43-4644-A324-5DB6F2AC67F0}"/>
+						<Switch Name="Far" ID="{73A66E8A-45CE-4602-892B-435C0BC9DF83}"/>
+						<Switch Name="Medium" ID="{6D82B2D8-47EA-415F-B92D-3E1C8C4EF26F}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Distance_to_Camera" ID="{44ACA539-208C-4808-BDF1-EBFC9DC39288}"/>
+						<Curve Name="" ID="{A6EFE7E9-8BED-4141-8AC1-C04C34659393}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>3</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>40</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>99.999</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

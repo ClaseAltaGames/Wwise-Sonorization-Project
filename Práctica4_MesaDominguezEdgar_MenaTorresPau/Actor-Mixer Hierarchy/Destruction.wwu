@@ -375,6 +375,26 @@
 										<ItemRef Name="Destroy_Crate" ID="{90CB27BF-AC46-4F96-9400-F0F8C5700AEF}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Crate" ID="{5E741C59-FDE3-4B33-9BF3-BBC5CF1CDD2F}"/>
+										<ItemList>
+											<ItemRef Name="Destroy_Crate" ID="{90CB27BF-AC46-4F96-9400-F0F8C5700AEF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Barrel" ID="{1244157C-F252-4FA0-87E9-EDEA15DA63B6}"/>
+										<ItemList>
+											<ItemRef Name="Destroy_Barrel" ID="{360805A5-9338-4BE6-8D0C-A03E243814CE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{8A3F2C9D-A572-4B3D-B662-BBCEC9B3259E}"/>
+										<ItemList>
+											<ItemRef Name="Destroy_Wood" ID="{1CA09981-208B-4B77-8EE4-A7DB0E45D3B8}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Destruction_VolcanicBoulder" ID="{51DD1E68-B5A1-4C6C-96DE-AF3F6A6B77C3}" ShortID="791082974">
@@ -382,8 +402,14 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8681D368-B8B8-44E3-BFD7-90C6BD35A24C}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Medium" ID="{6D82B2D8-47EA-415F-B92D-3E1C8C4EF26F}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85F00270-ACDE-4BFC-99A2-3D8DE0BFCB3F}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Distance_to_Player" ID="{19374F1E-7A1D-4B2F-B3EE-8A153175E720}" WorkUnitID="{3EBB6194-72D4-4954-81B5-2582E03612CF}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -525,6 +551,26 @@
 										<ItemRef Name="Boulder_Near" ID="{7E95769A-359F-4F6A-80E7-813A871CE0A5}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Close" ID="{122B6142-2E43-4644-A324-5DB6F2AC67F0}"/>
+										<ItemList>
+											<ItemRef Name="Boulder_Near" ID="{7E95769A-359F-4F6A-80E7-813A871CE0A5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{73A66E8A-45CE-4602-892B-435C0BC9DF83}"/>
+										<ItemList>
+											<ItemRef Name="Boulder_Far" ID="{D5E8A92C-7ACB-417A-989E-0B8B77C6F197}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Medium" ID="{6D82B2D8-47EA-415F-B92D-3E1C8C4EF26F}"/>
+										<ItemList>
+											<ItemRef Name="Boulder_Near" ID="{7E95769A-359F-4F6A-80E7-813A871CE0A5}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>

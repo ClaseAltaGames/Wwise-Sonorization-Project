@@ -98,6 +98,7 @@
 						<BlendContainer Name="Ambient_Region_Desert" ID="{DD4B8FDC-1875-4441-93BE-C63EBFCFBEED}" ShortID="551599695">
 							<PropertyList>
 								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -197,15 +198,20 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<BlendTrackList>
-								<BlendTrack Name="New Blend Track" ID="{BC748D68-7AEC-4F6E-A51A-5249A6954CF2}" ShortID="846955804">
+								<BlendTrack Name="New Blend Track" ID="{B67C4056-2214-47DB-9A36-4FEAC4E7D1D0}" ShortID="538683008">
 									<PropertyList>
 										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists>
 										<ObjectList Name="RTPC">
 											<Reference>
 												<Local>
-													<RTPC Name="" ID="{D95C89B7-8C87-4675-B4BF-2AEFAF5E41D6}" ShortID="773547545">
+													<RTPC Name="" ID="{E9626FA6-DCDF-4942-AAA2-B5C2347F748E}" ShortID="438517633">
 														<PropertyList>
 															<Property Name="PropertyName" Type="string" Value="Volume"/>
 														</PropertyList>
@@ -215,7 +221,7 @@
 															</Reference>
 															<Reference Name="Curve">
 																<Custom>
-																	<Curve Name="" ID="{647DB403-1AC9-472E-BCC5-420994E766DC}">
+																	<Curve Name="" ID="{CD24987D-13BD-4BE4-A115-FBDCD09C5622}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -245,6 +251,35 @@
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Desert_Night" ID="{6B33562B-5453-40AE-AE7A-FCAECFECB45A}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Desert_Day" ID="{CA9C78A3-112E-4C21-B04A-5C9F9D551E96}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>19</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambient_Region_Desert_Night" ID="{6B33562B-5453-40AE-AE7A-FCAECFECB45A}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>15.600375</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>24</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
@@ -341,6 +376,91 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Background" ID="{011C91A6-350C-40C6-AC23-57BC033B606D}" ShortID="824452917">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5095702E-DB7A-45E3-955C-4C5054373112}" ShortID="123346728">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{604D83CF-3C22-4A75-859D-6064C8EECA1D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>12</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{B91CB226-9504-44A9-AE59-20CC310C1126}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Day" ID="{B6B81BF7-BAFE-47B6-B417-B15FA2E2CDDC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6.21032504780115</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>17.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{B91CB226-9504-44A9-AE59-20CC310C1126}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>16</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>24</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
 						<BlendContainer Name="Ambient_Region_Village" ID="{C2E488A2-8E79-4EF6-B490-38F8EC18360F}" ShortID="261268992">
 							<ReferenceList>
@@ -435,6 +555,86 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{809BAEA0-EA3A-4FCF-BAA9-26FC6B16DDEB}" ShortID="908339639">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{7E06129C-D671-4960-8ED3-EF409A362B2A}" ShortID="531079704">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{895ABE94-9F01-4CE2-A9F5-46B97E8914A9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>24</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{ADBEA46D-FF30-4B5A-95FE-7A6426695146}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7.20009375</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Day" ID="{AD888811-92FE-4CC5-A1FF-36937A2D5669}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>17.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{ADBEA46D-FF30-4B5A-95FE-7A6426695146}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>16</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>24</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
 						<BlendContainer Name="Ambient_Region_Woodlands" ID="{232DE429-4A28-457E-BF5F-94B20800A5EE}" ShortID="243349258">
 							<ReferenceList>
@@ -529,6 +729,47 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{D927F331-13A1-4F9F-91ED-FF9E0D6C9D60}" ShortID="784174681">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Time_of_Day" ID="{12C24376-28D5-4214-9779-1C2077DBB29D}" WorkUnitID="{CC75923E-E86B-4B18-8AC1-64F83B05CCBA}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{8D7359EF-5F2F-4E0A-A71A-AA3901D877D7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>7.5</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Day" ID="{1926AE73-0509-4C5C-9FF6-E444E7A5750F}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>6</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>17.7042652963671</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Night" ID="{8D7359EF-5F2F-4E0A-A71A-AA3901D877D7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>15.600375</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>24</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
