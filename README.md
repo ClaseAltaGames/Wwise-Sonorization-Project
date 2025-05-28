@@ -5,6 +5,7 @@ Integració completa i funcional d’àudio per a un videojoc mitjançant el mid
 ## 👤 Autors
 
 **Pau Mena Torres**
+
 **Edgar Mesa Domínguez**
 
 ## ✅ Objectius de la pràctica
